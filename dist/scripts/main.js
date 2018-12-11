@@ -1,1 +1,1 @@
-var modal=document.getElementById("id01");window.onclick=function(d){d.target==modal&&(modal.style.display="none")};
+var modal=document.getElementById("id01","id02");window.onclick=function(d){d.target==modal&&(modal.style.display="none")};
