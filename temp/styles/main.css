@@ -1,0 +1,124 @@
+/* Settings: 
+Collection of variables that do not generate CSS, but are applied to classes. */
+.animate {
+  animation: animatezoom 0.6s; }
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0); }
+  to {
+    transform: scale(1); } }
+
+/* Tools: 
+Are typically preprocessor functionsto extend properties properties on classes. */
+/* Add padding to container elements */
+.o-container {
+  padding: 8px; }
+
+/* Add padding to imgcontainer element */
+.o-container__img {
+  text-align: center;
+  margin: 8px 0 8px 0; }
+
+/* Avatar image */
+img {
+  width: 40%;
+  border-radius: 50%;
+  border: 1px solid black; }
+
+/* Bordered form */
+form {
+  border: 3px solid black; }
+
+/* Horizontal line to separated the lines */
+hr {
+  border: 2px solid #f1f1f1; }
+
+label {
+  margin: auto auto;
+  padding: 0 8px; }
+
+a {
+  color: dodgerblue; }
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 8px 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box; }
+
+/* Full-width input fields */
+button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 8px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer; }
+  button :hover {
+    opacity: 0.8; }
+
+/* Margin adjust input*/
+input[type=checkbox] {
+  margin: 8px 0; }
+
+/* Change color cancel botton */
+.c-btn__cancel {
+  padding: 8px 16px;
+  background-color: #f44336; }
+
+/* Span password and information position */
+.c-information {
+  float: right;
+  margin: 8px 8px 8px 0; }
+
+/* Position it in the top right corner outside of the modal */
+.c-close {
+  position: absolute;
+  right: 16px;
+  top: 0;
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer; }
+
+/* Carateristics of how the modal apper */
+.modal {
+  display: none;
+  /* Hidden by default */
+  z-index: 1;
+  /* Sit on top */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  padding-top: 5%; }
+
+/* Carateristics of the content of the modal */
+.p-modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto auto;
+  /* from the top and centered */
+  border: 1px solid black;
+  width: 85%;
+  /* Could be more or less, depending on screen size */ }
+
+/* Utils: 
+Make changes only for a certain style in a specific place */
+/* Scope: 
+Only use scope if is absolutely necessary. */
+/* Is-css:
+Indicates the state of the block or elements. */
+/* Is-js: 
+Is bound to Javascritp. */
+
+/*# sourceMappingURL=main.css.map */
